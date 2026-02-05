@@ -16,6 +16,7 @@ decrementBtn.addEventListener('click', () => {
     alert('Negative value!');
     p.textContent = 0;
     number = 0;
+    p.style.color = 'black';
   }
 });
 const block = document.querySelector('.block');
